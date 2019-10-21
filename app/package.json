@@ -1,0 +1,19 @@
+{
+	"name": "kneskfm_app",
+	"version": "0.0.1",
+	"main": "index.js",
+	"author": "Aman Khanakia <aman@jeogaltd.com>",
+	"license": "MIT",
+	"description": "A Wordpress like option module for Mongodb in Javascript.",
+	"scripts": {
+		"build": "rollup -c",
+		"dev": "rollup -c -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:jeoga/hook.git"
+	},
+	"dependencies": {		
+		"mongodb": "^3.1.4"
+	}
+}
