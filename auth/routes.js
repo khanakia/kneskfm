@@ -26,7 +26,7 @@ module.exports = [
 	{
 		method: "POST",
 		url: "/auth/me",
-		beforeHandler: async (request, reply) => {
+		preHandler: async (request, reply) => {
 			// E.g. check authentication
 			return App.plugins['Core/Auth'].Middlewares.authMiddleware(request, reply)
 		},

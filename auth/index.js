@@ -24,9 +24,9 @@ class Auth {
         
         App.Hook.Action.add('Www/Init', async (fastify) => {
             // console.log(fastify.route)
-            for (const route of Routes) {
-                fastify.route(route)
-            }
+            // for (const route of Routes) {
+            //     fastify.route(route)
+            // }
         })
     }
 

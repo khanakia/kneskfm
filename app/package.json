@@ -13,7 +13,8 @@
 		"type": "git",
 		"url": "git@github.com:jeoga/hook.git"
 	},
-	"dependencies": {		
+	"dependencies": {
+		"joi": "^14.3.1",
 		"mongodb": "^3.1.4"
 	}
 }
