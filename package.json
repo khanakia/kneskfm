@@ -1,4 +1,6 @@
 {
+  "name": "@kneskfm",
+  "version": "0.0.1",
   "dependencies": {
     "joi": "^14.3.1"
   }
